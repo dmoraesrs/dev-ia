@@ -5,7 +5,7 @@
 ```
   ╔══════════════════════════════════════════════════════════════╗
   ║                                                              ║
-  ║   🧠  IA não substitui o dev — ela MULTIPLICA o dev  🧠      ║
+  ║   🧠  IA não substitui o dev — ela MULTIPLICA o dev  🧠       ║
   ║                                                              ║
   ╚══════════════════════════════════════════════════════════════╝
 ```
@@ -84,17 +84,18 @@ graph LR
 ### 3️⃣ Explorar áreas novas
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4fc3f7', 'secondaryColor': '#ce93d8', 'tertiaryColor': '#a5d6a7', 'primaryTextColor': '#000', 'secondaryTextColor': '#000' }}}%%
 mindmap
   root((🧭 Explorar))
-    🔒 Segurança
-      OWASP Top 10
-      Threat Modeling
     ⚡ Performance
       Profiling
       Caching
     🧪 Testes
       E2E
       Load Testing
+    🔒 Segurança
+      OWASP Top 10
+      Threat Modeling
     🏗️ Infra
       Kubernetes
       IaC
