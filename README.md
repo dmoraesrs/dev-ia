@@ -764,7 +764,7 @@ Use o template em `agents/TEMPLATE-AGENTE.md`. Qualquer um pode criar e contribu
   ║   "A melhor ferramenta é aquela que o time inteiro       ║
   ║    consegue usar bem."                                   ║
   ║                                                          ║
-  ║   🤖 56 agentes prontos. Zero desculpa. 🚀                ║
+  ║                          🚀                              ║
   ║                                                          ║
   ╚══════════════════════════════════════════════════════════╝
 ```
