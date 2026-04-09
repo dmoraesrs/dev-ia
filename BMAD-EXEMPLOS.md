@@ -15,6 +15,18 @@
 
 ---
 
+## Por que usar BMAD?
+
+| # | Benefício | O que muda na prática |
+|---|-----------|----------------------|
+| 1 | **Fluxo estruturado e previsível** | Transforma o desenvolvimento com IA em um processo metódico — cada etapa é planejada e validada antes de escrever código. Sem achismo, sem surpresas. |
+| 2 | **Menos alucinação da IA** | Abordagem documentation-first: a IA segue specs e contratos bem definidos em vez de inventar comportamentos a partir de prompts soltos. |
+| 3 | **Menos retrabalho** | Stories pequenas + critérios de aceitação explícitos = incrementos previsíveis, fáceis de revisar e reverter. Menos tempo debugando erros da IA. |
+| 4 | **Governança e compliance** | O pipeline garante rastreabilidade (Brief → PRP → PRD → Código → QA), facilitando auditorias e alinhamento com requisitos de negócio. |
+| 5 | **Conhecimento reutilizável** | Agentes são código — portáveis, versionáveis e compartilháveis entre projetos. A expertise não fica presa na cabeça de uma pessoa. |
+
+---
+
 ## Como o BMAD funciona
 
 O orquestrador detecta automaticamente a **escala** da tarefa e ativa as fases necessárias:
