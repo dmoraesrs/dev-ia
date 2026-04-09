@@ -5,7 +5,7 @@
 ```
   ╔══════════════════════════════════════════════════════════════╗
   ║                                                              ║
-  ║   🧠  IA não substitui o dev — ela MULTIPLICA o dev  🧠       ║
+  ║   🧠  IA não substitui o dev — ela MULTIPLICA o dev  🧠      ║
   ║                                                              ║
   ╚══════════════════════════════════════════════════════════════╝
 ```
@@ -389,6 +389,66 @@ graph LR
 
 ---
 
+## 🔄 BMAD — O Pipeline Inteligente
+
+<div align="center">
+
+```
+  ╔══════════════════════════════════════════════════════════════╗
+  ║                                                              ║
+  ║   BMAD = Breakthrough Method for Agile AI-Driven Development ║
+  ║   A profundidade certa para cada problema.                   ║
+  ║                                                              ║
+  ╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+Adotamos o framework **BMAD** para que a IA faça o trabalho certo, na profundidade certa. O orquestrador **detecta automaticamente** a escala da tarefa:
+
+```mermaid
+graph LR
+    T["📝 Tarefa"] --> D{"🔍 Escala?"}
+    
+    D -->|"🟢 Pequena<br/>Bug, config"| P1["⚡ Dev direto"]
+    D -->|"🟡 Média<br/>Feature simples"| P2["📋 Plan → Dev → QA"]
+    D -->|"🔴 Grande<br/>Sistema complexo"| P3["💡 Brainstorm → 🏗️ Architect → ⚡ Dev → ✅ QA"]
+    
+    style T fill:#fff3e0,stroke:#e65100,color:#000
+    style D fill:#e3f2fd,stroke:#1565c0,color:#000
+    style P1 fill:#e8f5e9,stroke:#2e7d32,color:#000
+    style P2 fill:#fff8e1,stroke:#ff9800,color:#000
+    style P3 fill:#fce4ec,stroke:#c62828,color:#000
+```
+
+### Fases BMAD
+
+| Fase | O que faz | Quem executa |
+|:---|:---|:---|
+| **Brainstorm** | Refina a ideia, define escopo e requisitos | `/brainstorm` |
+| **Architect** | 6 especialistas debatem e geram PRP + PRD | `/mesa-redonda` |
+| **Dev** | Agentes especializados implementam em paralelo | 56 agentes |
+| **QA Gate** | Review automático antes de entregar | `/code-reviewer` + `/tester` |
+
+### Na prática
+
+```bash
+# Bug simples → escala pequena, resolve direto
+/orquestrador o endpoint /api/users retorna 500
+
+# Feature média → planeja, implementa, revisa
+/orquestrador adicionar export CSV no dashboard
+
+# Sistema complexo → pipeline completo BMAD
+/orquestrador criar plataforma de backup multi-engine com deploy automatizado
+```
+
+> O orquestrador decide automaticamente qual caminho seguir. Zero configuração manual.
+
+Guia completo com 10 exemplos: [BMAD-EXEMPLOS.md](BMAD-EXEMPLOS.md)
+
+---
+
 ## 🏗️ O que Já Construímos
 
 <div align="center">
@@ -490,8 +550,10 @@ graph TB
   ┌───────────────────────────────────────────────────────┐
   │                                                       │
   │  🤖 56 Agentes Especializados                         │
-  │  🎭 1 Orquestrador Multi-Agente                       │
+  │  🎭 1 Orquestrador Multi-Agente (BMAD Pipeline)       │
+  │  💡 1 Brainstorm (ideação e requisitos)                │
   │  🗣️ 1 Mesa Redonda Técnica (6 especialistas)          │
+  │  🔄 Pipeline BMAD adaptativo (P/M/G)                  │
   │  📄 Templates de documentação, RCA, incidents         │
   │  🔒 Padrões de segurança embutidos                    │
   │  🧠 Aprendizado persistente entre sessões             │
@@ -764,7 +826,7 @@ Use o template em `agents/TEMPLATE-AGENTE.md`. Qualquer um pode criar e contribu
   ║   "A melhor ferramenta é aquela que o time inteiro       ║
   ║    consegue usar bem."                                   ║
   ║                                                          ║
-  ║                          🚀                              ║
+  ║                             🚀                           ║
   ║                                                          ║
   ╚══════════════════════════════════════════════════════════╝
 ```
